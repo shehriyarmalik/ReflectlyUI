@@ -1,6 +1,6 @@
 # ReflectlyUI
 
-A new Flutter project.
+An onboarding UI replica of popular Flutter masterpiece app Reflectly with avatar glow and delayed animation. 
 
 ## Getting Started
 
