@@ -56,7 +56,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
                       child: CircleAvatar(
                         backgroundColor: Colors.white,
                         child: Image.asset(
-                          'assets/images/markhor3.jpg',
+                          'images/logo.png',
                           height: 70,
                         ),
                         radius: 50.0,
@@ -100,7 +100,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
                   delay: delayedAmount + 3000,
                 ),
                 SizedBox(
-                  height: 100.0,
+                  height: 300.0,
                 ),
                 DelayedAnimation(
                   child: GestureDetector(
@@ -114,13 +114,13 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
                   delay: delayedAmount + 4000,
                 ),
                 SizedBox(
-                  height: 50.0,
+                  height: 30.0,
                 ),
                 DelayedAnimation(
                   child: Text(
                     "I Already have An Account".toUpperCase(),
                     style: TextStyle(
-                        fontSize: 20.0,
+                        fontSize: 15.0,
                         fontWeight: FontWeight.bold,
                         color: color),
                   ),
